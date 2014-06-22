@@ -1,0 +1,8 @@
+[color]
+	ui = auto
+[core]
+	editor = vim
+[diff]
+	renames = true
+[push]
+	default = current
