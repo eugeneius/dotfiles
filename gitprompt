@@ -1,0 +1,19 @@
+# Add the current branch name to the prompt.
+# Note that this stomps all over any existing prompt customisation.
+PROMPT_COMMAND='__git_ps1 "\u@\h:\w" "\\\$ "'
+
+# Show */+ in the prompt when there are unstaged/staged
+# modifications to the current repo, respectively.
+GIT_PS1_SHOWDIRTYSTATE=1
+
+# Show the */+ indicating local modifications in colour.
+GIT_PS1_SHOWCOLORHINTS=1
+
+# Indicate the state of a branch relative to its remote.
+GIT_PS1_SHOWUPSTREAM="auto"
+
+# Try to describe a detatched head state in terms of a branch.
+GIT_PS1_DESCRIBE_STYLE="branch"
+
+# Indicate whether there is anything in the stash.
+GIT_PS1_SHOWSTASHSTATE=1
