@@ -24,6 +24,12 @@ set showmode
 " Start showing search results while the query is being entered.
 set incsearch
 
+" Highlight all results of the last search.
+set hlsearch
+
+" Clear the currently highlighted search results by pressing enter.
+:nmap <silent> <CR> :nohlsearch<CR><CR>
+
 " Include local config
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
