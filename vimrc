@@ -30,6 +30,10 @@ set hlsearch
 " Clear the currently highlighted search results by pressing enter.
 :nmap <silent> <CR> :nohlsearch<CR><CR>
 
+" Disable modeline support; I don't use them.
+" They have also historically been a source of security vulnerabilities.
+set nomodeline
+
 " Include local config
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
