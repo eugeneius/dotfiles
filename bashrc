@@ -1,3 +1,7 @@
+# Search the PATH again if an executable is not found where it was last time.
+# This can happen when ./bin is in your PATH and you change directory.
+shopt -s checkhash
+
 # Include aliases
 [[ -f ~/.bash_aliases ]] && source ~/.bash_aliases
 
