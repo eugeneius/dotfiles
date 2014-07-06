@@ -11,5 +11,7 @@
 	ff = only
 [push]
 	default = current
+[alias]
+	review = "!git log --reverse --patch ${1-master}..HEAD"
 [include]
 	path = ~/.gitconfig.local
