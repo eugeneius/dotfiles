@@ -7,6 +7,8 @@
 	renames = true
 [fetch]
 	prune = true
+[merge]
+	ff = only
 [push]
 	default = current
 [include]
