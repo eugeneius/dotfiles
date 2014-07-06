@@ -21,6 +21,9 @@ set ruler
 " Show the current editor mode on the last line of the window.
 set showmode
 
+" Start showing search results while the query is being entered.
+set incsearch
+
 " Include local config
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
