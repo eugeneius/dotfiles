@@ -28,7 +28,7 @@ set incsearch
 set hlsearch
 
 " Clear the currently highlighted search results by pressing enter.
-:nmap <silent> <CR> :nohlsearch<CR><CR>
+:nnoremap <silent> <CR> :nohlsearch<CR><CR>
 
 " Disable modeline support; I don't use them.
 " They have also historically been a source of security vulnerabilities.
