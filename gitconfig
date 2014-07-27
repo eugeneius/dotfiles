@@ -5,6 +5,7 @@
 [diff]
 	algorithm = patience
 	renames = true
+	wordRegex = \\w+|[^[:space:]]
 [fetch]
 	prune = true
 [merge]
