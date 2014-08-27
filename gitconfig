@@ -14,5 +14,6 @@
 	default = current
 [alias]
 	review = "log --reverse --patch master..HEAD"
+	fixup = "commit --amend --no-edit"
 [include]
 	path = ~/.gitconfig.local
