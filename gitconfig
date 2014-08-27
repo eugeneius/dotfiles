@@ -13,7 +13,7 @@
 [push]
 	default = current
 [alias]
-	review = "log --reverse --patch master..HEAD"
+	review = "log --reverse --patch origin/master..HEAD"
 	fixup = "commit --amend --no-edit"
 [include]
 	path = ~/.gitconfig.local
