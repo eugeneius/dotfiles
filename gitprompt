@@ -17,3 +17,6 @@ GIT_PS1_DESCRIBE_STYLE="branch"
 
 # Indicate whether there is anything in the stash.
 GIT_PS1_SHOWSTASHSTATE=1
+
+# Indicate whether there are any untracked files present.
+GIT_PS1_SHOWUNTRACKEDFILES=1
