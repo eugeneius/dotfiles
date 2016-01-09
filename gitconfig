@@ -14,6 +14,8 @@
 	default = current
 [rebase]
 	autosquash = true
+[stash]
+	showPatch = true
 [alias]
 	review = "log --reverse --patch origin/master..HEAD"
 	fixup = "commit --amend --no-edit"
