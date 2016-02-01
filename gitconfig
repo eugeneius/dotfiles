@@ -16,6 +16,8 @@
 	autosquash = true
 [stash]
 	showPatch = true
+[transfer]
+	fsckObjects = true
 [alias]
 	review = "log --reverse --patch origin/master..HEAD"
 	fixup = "commit --amend --no-edit"
