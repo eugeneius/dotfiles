@@ -19,6 +19,7 @@
 [transfer]
 	fsckObjects = true
 [alias]
+	wip = "branch --no-merged master@{upstream} --sort=committerdate"
 	review = "log --reverse --patch master@{upstream}..HEAD"
 	fixup = "commit --amend --no-edit"
 [include]
