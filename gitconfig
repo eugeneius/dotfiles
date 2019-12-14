@@ -21,6 +21,7 @@
 [alias]
 	wip = "branch --no-merged master@{upstream} --sort=committerdate"
 	review = "log --reverse --patch master@{upstream}..HEAD"
+	summary = "review --oneline --no-patch"
 	fixup = "commit --amend --no-edit"
 [include]
 	path = ~/.gitconfig.local
